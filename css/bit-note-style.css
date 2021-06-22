@@ -1,0 +1,700 @@
+/*
+Theme Name: Bit Note
+Theme URI: https://github.com/fcunhaneto/bit-note
+Description: This theme was developed for personal use and does not have many pretensions. The theme was built upon Bootstrap.
+Tags: right-sidebar, mobile-layout, translation-ready
+Author: Francisco Cunha Neto
+Author URI: http://cadernoscicomp.com.br/
+Version: 1.0
+License: GPL-3.0+
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+*/
+
+
+/*******************************************************************************
+ *    center main header and footer
+ ******************************************************************************/
+
+.wrap-center {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*******************************************************************************
+ *    wrap header navbar
+ ******************************************************************************/
+
+.wrap-nav {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+
+/*******************************************************************************
+ *    Navigate
+ ******************************************************************************/
+
+.top {
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+    width: 53px;
+    height: 42px;
+    z-index: 3000;
+    background-image: url('../images/top.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid #8c8b8b;
+    -moz-border-radius: 26px 26px 21px 21px;
+    -webkit-border-radius: 26px 26px 21px 21px;
+    border-radius: 26px 26px 21px 21px;
+}
+
+.previous {
+    position: fixed;
+    left: 1%;
+    bottom: 50%;
+    width: 42px;
+    height: 53px;
+    z-index: 3000;
+    border: 1px solid #8c8b8b;
+    -moz-border-radius: 26px 0 0 26px;
+    -webkit-border-radius: 26px 0 0 26px;
+    border-radius: 26px 0 0 26px;
+}
+
+.next {
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+    width: 42px;
+    height: 53px;
+    z-index: 3000;
+    border: 1px solid #8c8b8b;
+    -moz-border-radius: 0 26px 26px 0;
+    -webkit-border-radius: 0 26px 26px 0;
+    border-radius: 0 26px 26px 0;
+}
+
+.next>a>img {
+    width: 42px;
+    height: 53px;
+}
+
+.previous>a>img {
+    width: 42px;
+    height: 53px;
+}
+
+.next_previous {
+    text-align: center;
+}
+
+
+/*******************************************************************************
+ *    site brandig header
+ ******************************************************************************/
+
+.branding {
+    position: relative;
+    top: 30px;
+    height: 400px;
+    margin-top: -1px;
+    margin-left: 5px;
+    background-image: url('../images/bits-banner-1_1280.jpg');
+    background-repeat: no-repeat;
+    border-radius: 0 0 10px 10px;
+}
+
+.branding>hgroup>h1 {
+    padding-left: 65px;
+    padding-top: 110px;
+    line-height: 1.2;
+    color: #eebc76;
+    font-family: 'Patua One', cursive;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.branding>hgroup>h1>a {
+    color: #eebc76;
+}
+
+.branding>hgroup>h1>a:hover {
+    color: #f0ca94;
+}
+
+.branding>hgroup>h2 {
+    padding-left: 85px;
+    color: #eebc76;
+    font-weight: bold;
+}
+
+
+/*******************************************************************************
+ *    make a igual height columns
+ ******************************************************************************/
+
+.eqheight-class {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+#eqheight-id {
+    position: relative;
+    top: 30px;
+    overflow: hidden;
+}
+
+
+/*******************************************************************************
+ *    article main
+ ******************************************************************************/
+
+article header {
+    text-align: center;
+}
+
+article p {
+    line-height: 1.5;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+article p a {
+    color: #5084b2;
+}
+
+article p a:hover {
+    color: #d54a0f;
+}
+
+.panel-single {
+    border: 0;
+}
+
+table {
+    max-width: 800px !important;
+    margin-bottom: 20px;
+}
+
+
+/*******************************************************************************
+ *    article main header
+ ******************************************************************************/
+
+.bit-note-page-header h1,
+.bit-note-page-header h2 {
+    color: #d54a0f;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.bit-note-page-header p {
+    padding-left: 5px;
+}
+
+.wrap-bit-note-page-header {
+    margin-left: -15px;
+    margin-bottom: 20px;
+    padding: 30px 15px 0 15px;
+    margin-right: -15px;
+    background-color: #effff9;
+    border: 1px solid #8c8b8b;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+/*******************************************************************************
+ *    article main header in index
+ ******************************************************************************/
+
+.panel-default .bit-note-panel-heading {
+    background-color: #effff9;
+}
+
+.panel-default .bit-note-panel-heading h1>a {
+    color: #d54a0f;
+    font-family: "PT Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.panel-default .bit-note-panel-heading h1>a:hover {
+    color: #e20605;
+}
+
+.panel-default .bit-note-panel-heading p {
+    padding-left: 5px;
+}
+
+
+/*******************************************************************************
+ *    article panel body
+ ******************************************************************************/
+
+.panel-body>h1,
+h2 {
+    color: #1A568B;
+    font-weight: 500;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.panel-body>h3,
+h4,
+h4,
+h6 {
+    color: #1A568B;
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+
+/*******************************************************************************
+ *    social medias
+ ******************************************************************************/
+
+
+/* This gets Google to fall into place */
+
+.social-media {
+    font-size: 1px;
+}
+
+
+/* This gets Facebook to fall into place */
+
+.social-media iframe {
+    vertical-align: bottom;
+}
+
+.social-media span {
+    display: inline-block;
+    width: auto;
+}
+
+.facebook {
+    padding-right: 1.5em;
+}
+
+.google {
+    padding-right: 1.5em;
+}
+
+.social-media-home {
+    margin-left: 350px;
+    ;
+}
+
+.social-media-aside {
+    text-align: center;
+}
+
+.social-media-aside>.facebook,
+.google {
+    margin: 20px 0;
+}
+
+
+/*******************************************************************************
+ *    article and comment form line separator
+ ******************************************************************************/
+
+.line-separator {
+    border-top: 1px solid #8c8b8b;
+}
+
+
+/*******************************************************************************
+ *    sidbar
+ ******************************************************************************/
+
+.eqheight-sidbar {
+    background-color: #e4f2ff;
+    border-left: dotted black;
+}
+
+.sidebar {
+    margin-bottom: 100px;
+    margin-top: 20px;
+    color: #eebc76;
+}
+
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5,
+.sidebar h6 {
+    color: #d54a0f;
+}
+
+.sidebar-widget {
+    background-color: #f0f8ff;
+}
+
+.sidebar-widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-widget li {
+    padding: 5px 10px 0 18px;
+}
+
+.sidebar-widget li::before {
+    content: "• ";
+    color: #d54a0f;
+}
+
+.sidebar-widget a {
+    color: #e2ae66;
+}
+
+.sidebar-widget a:hover {
+    color: #d54a0f;
+}
+
+
+/*******************************************************************************
+ *    page footer
+ ******************************************************************************/
+
+.footer-page {
+    position: relative;
+    top: 30px;
+    min-height: 100px;
+    background-color: #f0f8ff;
+}
+
+.footer-page h1,
+.footer-page h2,
+.footer-page h3,
+.footer-page h4,
+.footer-page h5,
+.footer-page h6 {
+    color: #d54a0f;
+}
+
+.footer-widget {
+    margin-top: 20px;
+    background-color: #e4f2ff;
+}
+
+.footer-widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-widget li {
+    padding: 5px 10px 0 18px;
+}
+
+.footer-widget li::before {
+    content: "• ";
+    color: #d54a0f;
+}
+
+.footer-widget a {
+    color: #e2ae66;
+}
+
+.footer-widget a:hover {
+    color: #d54a0f;
+}
+
+
+/*******************************************************************************
+ *    comments
+ ******************************************************************************/
+
+#author,
+#email {
+    padding: .1em .2em;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: .2em .3em;
+}
+
+.input-group>span {
+    width: auto;
+}
+
+.comment-body {
+    margin-bottom: 20px;
+}
+
+.comments-area {
+    margin-bottom: 30px;
+}
+
+.comments-area>ul {
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.comment-notes {
+    color: #8c8b8b;
+}
+
+.comment-meta {
+    background-color: #f0f8ff;
+    border: 1px solid #8c8b8b;
+    color: #8c8b8b;
+}
+
+.comment-metadata {
+    font-size: .9em;
+}
+
+.comment-content {
+    margin: 0;
+    background-color: #f5f5f5;
+    border: 1px solid #8c8b8b;
+}
+
+.comment-content>p {
+    margin-bottom: 0;
+    padding: 5px 15px 0 15px;
+}
+
+.comment-awaiting-moderation {
+    background-color: #e4f2ff;
+    color: #d54a0f;
+}
+
+.comment-respond {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.children {
+    list-style-type: none;
+}
+
+.reply {
+    margin: 5px 15px 20px 15px;
+}
+
+.comment-reply-link {
+    text-align: center;
+}
+
+.no-comments,
+.ajax-error,
+.ajax-success {
+    font-size: 22px;
+}
+
+
+/*******************************************************************************
+ *    form search
+ ******************************************************************************/
+
+.article-search {
+    text-align: center;
+}
+
+#header-404 {
+    color: #d54a0f;
+    font-size: 5em;
+}
+
+#header-404>small {
+    color: #d54a0f;
+}
+
+#header-search {
+    color: #d54a0f;
+}
+
+.search-404 {
+    width: 50%;
+}
+
+
+/*******************************************************************************
+ *    tutorial breadcrumb
+ ******************************************************************************/
+
+.list-tutorial>h4 {
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px 10px 0 10px;
+    background-color: #F0F8FF;
+    color: #eebc76;
+}
+
+.list-tutorial-disable {
+    color: #d54a0f;
+}
+
+ol.breadcrumb {
+    background-color: #F0F8FF;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.breadcrumb>li+li::before {
+    content: ">> ";
+    color: #000;
+    text-align: center;
+}
+
+.tutorial-nav {
+    margin-left: -50px;
+}
+
+
+/*******************************************************************************
+ *    fix margin in some devices
+ ******************************************************************************/
+
+@media screen and (max-width: 767px) {
+    .fix-margin {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 921px) {
+    .fix-margin {
+        margin-top: 100px;
+    }
+}
+
+
+/*******************************************************************************
+ * Applies a border style with spirals in widht > 768px,
+ * fix margins for commnents in widht > 768px
+ ******************************************************************************/
+
+@media screen and (min-width: 767px) {
+    div[id^=attachment] {
+        margin-left: -25px;
+    }
+    .post-article {
+        margin-left: 50px;
+    }
+    .espiral {
+        overflow: visible;
+        background-image: url('../images/espiral-46.png');
+        background-repeat: repeat-y;
+        z-index: 3000;
+    }
+}
+
+
+/*******************************************************************************
+ * Fixed the wp-caption alignment error involving the images.
+ ******************************************************************************/
+
+.center-legend {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.left-legend {
+    margin-left: -25px;
+}
+
+.img-right {
+    float: right;
+}
+
+.abc {
+    width: 50%;
+}
+
+
+/*******************************************************************************
+* Calendar
+* Thank's to poonam
+* and site SmallEnvelop
+* http://smallenvelop.com/
+*******************************************************************************/
+
+#wp-calendar {
+    width: 100%;
+    font-size: 11px;
+}
+
+#wp-calendar thead th {
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-top: none;
+    font-size: 11px;
+}
+
+#wp-calendar tbody td {
+    text-align: center;
+    border: 1px solid #ddd;
+    line-height: 2.5em;
+    transition: background 0.15s ease;
+    -webkit-transition: background 0.15s ease;
+    -o-transition: background 0.15s ease;
+    -moz-transition: background 0.15s ease;
+}
+
+#wp-calendar tbody td:hover {
+    background: #f1f1f1;
+    color: #333;
+}
+
+#wp-calendar tbody td a {
+    display: block;
+    text-decoration: none;
+    background: #f1f1f1;
+    color: #333;
+}
+
+#wp-calendar tbody td:hover a {
+    background: #4d4d4d;
+    color: #fff;
+}
+
+#wp-calendar tfoot td {
+    padding-top: 1px;
+    padding: 4px;
+}
+
+#wp-calendar caption {
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 12px;
+    outline: 0 none !important;
+    background: #4682B4;
+    color: #fff;
+}
+
+#wp-calendar tbody a {
+    display: block;
+    text-decoration: underline;
+}
+
+#wp-calendar th {
+    text-align: center;
+    border: 1px solid transparent;
+    border-top: none;
+    padding: 7px 0;
+    color: #a7a7a7;
+}
+
+#footer #wp-calendar thead th {
+    background: #222
+}
+
+#footer #wp-calendar tbody td {
+    border-color: #222
+}

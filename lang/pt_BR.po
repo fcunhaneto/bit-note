@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bit Note\n"
+"POT-Creation-Date: 2017-07-24 07:06-0300\n"
+"PO-Revision-Date: 2017-07-24 07:11-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:11
+msgid "Sorry we could not find the page you were looking for."
+msgstr "Ops, não conseguimos localizar o que você está procurando."
+
+#: 404.php:12
+msgid "How about performing a search:"
+msgstr "Que tal realizar uma pesquisa:"
+
+#: comments.php:21
+msgid "Comments are closed."
+msgstr "Os Comentários estão fechados."
+
+#. translators: %s: post title
+#: comments.php:36
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Uma resposta para &ldquo;%s&rdquo;"
+
+#: comments.php:38
+#, php-format
+msgid "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr "%1$s resposta para &ldquo;%2$s&rdquo;"
+
+#: comments.php:50
+msgid "Reply"
+msgstr "Responder"
+
+#: functions.php:16
+msgid "Header Menu"
+msgstr "Menu do Cabeçalho"
+
+#: functions.php:33
+msgid "Sidebar Right Widgets Area"
+msgstr "Área de widgets da barra lateral"
+
+#: functions.php:44
+msgid "Footer Left Widget Area"
+msgstr "Rodapé á Esquerda Widget Área"
+
+#: functions.php:55
+msgid "Footer Center Left Widget Area"
+msgstr "Rodapé ao Centro Esquerdo Widget  Área"
+
+#: functions.php:66
+msgid "Footer Center Right Widget Area"
+msgstr "Rodapé ao Centro Direito Widget Área"
+
+#: functions.php:77
+msgid "Footer Right Widget Area"
+msgstr "Rodapé à Direita Widget  Área"
+
+#: functions.php:178
+msgid "Continue&nbsp;reading&nbsp;&nbsp;"
+msgstr "Continue&nbsp;lendo&nbsp;&nbsp;"
+
+#: functions.php:195
+msgid "Name and email are required."
+msgstr "Os campos Nome e E-mail são obrigatórios."
+
+#: functions.php:202
+msgid "name"
+msgstr "nome"
+
+#: functions.php:207
+msgid "email"
+msgstr "e-mail"
+
+#: functions.php:210
+msgid "Website"
+msgstr "Website"
+
+#: functions.php:212
+msgid "url"
+msgstr "url"
+
+#: functions.php:221
+msgid "Leave a Comment"
+msgstr "Deixe um comentário"
+
+#: functions.php:222
+msgid "Comment"
+msgstr "Comentar"
+
+#: functions.php:229
+msgid "Your comment"
+msgstr "Seu comentário"
+
+#: functions.php:234
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+"Você precisa fazer <a href=\"%s\">login</a> para postar um comentário."
+
+#: functions.php:240
+msgid "Logged in as"
+msgstr "Logado como"
+
+#: functions.php:240
+msgid "Log out?"
+msgstr "Sair?"
+
+#: functions.php:246
+msgid "Your email address will not be published."
+msgstr "Seu endereço de e-mail não será publicado."
+
+#: functions.php:280
+msgid "Search"
+msgstr "Pesquisar"
+
+#: functions.php:289
+msgid "&laquo;&nbsp;Older Posts"
+msgstr "&laquo;&nbsp;Posts mais antigos"
+
+#: functions.php:291
+msgid "New Posts&nbsp;&raquo;"
+msgstr "Posts mais novos&nbsp;&raquo;"
+
+#: functions.php:299
+msgid "&laquo;&nbsp;Previous Post"
+msgstr "&laquo;&nbspPost Anterior"
+
+#: functions.php:300
+msgid "Next Post&raquo;&nbsp;"
+msgstr "Próximo Post&raquo;&nbsp;"
+
+#. translators: 1: comment date, 2: comment time
+#: inc/bit-note-walker-comment.php:25
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s em %2$s"
+
+#: inc/bit-note-walker-comment.php:31
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/bit-note-walker-comment.php:34
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando moderação."
+
+#: index.php:69
+msgid "Sorry we could not find the page you were looking for"
+msgstr "Ops, não conseguimos localizar o que você está procurando"
+
+#: index.php:72
+msgid "How about performing a search"
+msgstr "Que tal realizar uma pesquisa:"
+
+#: search.php:10
+msgid "Sorry we did not find what you were looking for."
+msgstr "Desculpe, não achamos o você que estava procurando."
+
+#: search.php:13
+msgid "How about performing a new search:"
+msgstr "Que tal realizar uma nova pesquisa?"
+
+#: search.php:15
+msgid "Or visit our "
+msgstr "Ou visite a nossa"
+
+#: search.php:15
+msgid "home page"
+msgstr "Home Page"
+
+#. Theme Name of the plugin/theme
+msgid "Bit Note"
+msgstr "Bit Note"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/fcunhaneto/bit-note"
+msgstr "https://github.com/fcunhaneto/bit-note"
+
+#. Description of the plugin/theme
+msgid ""
+"This theme was developed for personal use and does not have many "
+"pretensions. The theme was built upon Bootstrap."
+msgstr ""
+"Este tema foi desenvolvido para uso pessoal e não tem muitas pretensões. O "
+"tema foi construído em cima de Bootstrap."
+
+#. Author of the plugin/theme
+msgid "Francisco Cunha Neto"
+msgstr "Francisco Cunha Neto"
+
+#. Author URI of the plugin/theme
+msgid "http://cadernoscicomp.com.br/"
+msgstr "http://cadernoscicomp.com.br/"

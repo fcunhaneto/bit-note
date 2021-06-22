@@ -1,0 +1,21 @@
+/*
+Theme Name: Bit Note
+Theme URI: https://github.com/fcunhaneto/bit-note
+Description: This theme was developed for personal use and does not have many pretensions. The theme was built upon Bootstrap.
+Tags: right-sidebar, mobile-layout, translation-ready
+Author: Francisco Cunha Neto
+Author URI: http://cadernoscicomp.com.br/
+Version: 1.0
+License: GPL-3.0+
+License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+*/
+
+blockquote {
+    font-size: 16px;
+}
+
+pre,
+code {
+    font-family: monospace;
+    font-size: 14px;
+}
